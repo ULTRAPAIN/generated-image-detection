@@ -1,0 +1,31 @@
+{
+  "name": "generated-image-detection",
+  "version": "1.0.0",
+  "description": "Research on utilising GANs to discern between real and fake images",
+  "main": "backend/index.js",
+  "scripts": {
+    "dev": "NODE_ENV=development nodemon backend/index.js",
+    "start": "NODE_ENV=production node backend/index.js",
+    "build": "npm install && npm install --prefix frontend/UI && npm run build --prefix frontend/UI"
+  },
+  "keywords": [],
+  "author": "",
+  "type": "module",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "cookie-parser": "^1.4.7",
+    "cors": "^2.8.5",
+    "cross-env": "^7.0.3",
+    "crypto": "^1.0.1",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "jsonwebtoken": "^9.0.2",
+    "mailtrap": "^3.4.0",
+    "mongoose": "^8.9.6",
+    "nodemailer": "^6.10.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.9"
+  }
+}
