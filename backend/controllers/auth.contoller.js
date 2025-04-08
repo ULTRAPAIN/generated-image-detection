@@ -8,7 +8,7 @@ import {sendVerificationEmail} from '../mailtrap/emails.js'
 import { sendWelcomeEmail } from '../mailtrap/emails.js';
 import { sendPasswordResetEmail } from '../mailtrap/emails.js';
 import { sendResetSuccessEmail } from '../mailtrap/emails.js';
-import {User} from '../models/user.model.js';
+import {User} from '../model/user.model.js';
 import { log } from "console";
 import { json } from "stream/consumers";
 import { STATUS_CODES } from "http";
